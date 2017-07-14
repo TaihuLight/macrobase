@@ -12,14 +12,16 @@ BatchPipeline is the default pipeline.
 To run a simple pipeline with a percentile classifier
 & itemset mining explanation:
 
+From the project root directory:
 ```
-cd ../lib
+cd core
 mvn clean; mvn install
 
 cd ../cli
 mvn clean; mvn package
 
-./bin/simple.sh demo/conf.yaml
+cd ..
+bin/cli.sh cli/demo/conf.yaml
 ```
 
-Logging settings are stored in `config/logback.xml`
+Logging settings are stored in `cli/config/logback.xml`

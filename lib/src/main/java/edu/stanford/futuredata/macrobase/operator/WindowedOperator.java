@@ -1,7 +1,7 @@
 package edu.stanford.futuredata.macrobase.operator;
 
 import edu.stanford.futuredata.macrobase.datamodel.DataFrame;
-import edu.stanford.futuredata.macrobase.util.ArrayUtils;
+import edu.stanford.futuredata.macrobase.cli.util.ArrayUtils;
 
 import java.util.*;
 

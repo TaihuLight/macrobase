@@ -1,6 +1,5 @@
-package edu.stanford.futuredata.macrobase.config;
+package edu.stanford.futuredata.macrobase.cli;
 
-import edu.stanford.futuredata.macrobase.conf.Config;
 import org.junit.Test;
 
 import java.util.List;
@@ -8,10 +7,10 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class ConfigTest {
+public class CliConfigTest {
     @Test
     public void testLoadFile() throws Exception {
-        Config c = Config.loadFromYaml("demo/conf.yaml");
+        CliRunner.CliConfig c = CliRunner.CliConfig.loadFromYaml("demo/conf.yaml");
         List<String> attributes = c.getAs("attributes");
         assertTrue(attributes.size() > 1);
         double pct = c.getAs("percentile");

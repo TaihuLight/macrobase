@@ -1,6 +1,6 @@
 pipeline: "BatchPipeline"
 
-inputFile: "demo/sample.csv"
+inputFile: "cli/demo/sample.csv"
 
 summarizer: "apriori"
 

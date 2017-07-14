@@ -1,6 +1,6 @@
 package edu.stanford.futuredata.macrobase.datamodel;
 
-import edu.stanford.futuredata.macrobase.util.MacrobaseInternalError;
+import edu.stanford.futuredata.macrobase.cli.util.MacrobaseInternalError;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,0 +1,16 @@
+{
+  "inputURI": "csv://core/demo/sample.csv",
+  "classifier": {
+    "type": "percentile",
+    "metrics": ["usage"],
+    "cutoff": "1.0"
+  },
+  "summarizer": {
+    "attributes": [
+      "location",
+      "version"
+    ],
+    "minSupport": 0.2,
+    "minRiskRatio": 2.0
+  }
+}

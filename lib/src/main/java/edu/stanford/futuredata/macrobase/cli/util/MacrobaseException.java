@@ -1,4 +1,4 @@
-package edu.stanford.futuredata.macrobase.util;
+package edu.stanford.futuredata.macrobase.cli.util;
 
 public class MacrobaseException extends Exception {
     public MacrobaseException(String message) {
